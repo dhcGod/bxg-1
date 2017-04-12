@@ -1,0 +1,36 @@
+body,div,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font: 14px "宋体";
+}
+span,a,b,i{
+	margin: 0;
+	padding:0;
+	text-decoration:none;
+}
+img,input {
+	vertical-align: bottom;
+	outline-style: none;  
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.w {
+	width: 1201px;
+	margin: 0 auto; 
+}
+.clearfix:after {
+	content: "";
+	height: 0;
+	line-height: 0;
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+.clearfix {
+	zoom:1;
+}
